@@ -2,7 +2,7 @@ import pandas as pd
 from collections import Counter
 from typing import List, Tuple
 
-def q3_time(file_path: str) -> List[Tuple[str, int]]:
+def q3_solution(file_path: str) -> List[Tuple[str, int]]:
     # Lectura archivo
     df = pd.read_json(file_path, lines=True)
 
