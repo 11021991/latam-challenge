@@ -9,7 +9,7 @@ from typing import List, Tuple
 def count_emojis(texto: str) -> List[str]:
     return [c for c in texto if c in emoji.EMOJI_DATA]
 
-def q2_time(file_path: str) -> List[Tuple[str, int]]:
+def q2_solution(file_path: str) -> List[Tuple[str, int]]:
     
     # Lectura archivo
     df = pd.read_json(file_path, lines=True)
